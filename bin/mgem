@@ -11,6 +11,7 @@ end
 detail_info_proc = lambda do |obj|
   puts <<INFO
   Name:         #{obj.name}
+  Version:      #{obj.version}
   Author:       #{obj.author}
   Description:  #{obj.description}
   Website:      #{obj.website}

@@ -56,6 +56,7 @@ class MrbgemData
   # list of GEM properties
 
   def name; @gem_data["name"]; end
+  def version; @gem_data["version"]; end
   def description; @gem_data["description"]; end
   def author; @gem_data["author"]; end
   def website; @gem_data["website"]; end
